@@ -33,4 +33,6 @@ p {
 
 #cafe-img {
   border: 3px solid #6f4e37;
+  width: 300px;
+  height: auto;
 }
