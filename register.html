@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cozy Cafe - Register</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="media.html">Media</a>
+    <a href="register.html">Register</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Join Our Cafe Club</h1>
+
+  <form>
+    <label>Name</label>
+    <input type="text" required minlength="3" maxlength="30" placeholder="Your name">
+
+    <label>Password</label>
+    <input type="password" required minlength="6">
+
+    <label>Email</label>
+    <input type="email" required>
+
+    <label>Birth Date</label>
+    <input type="date">
+
+    <label>Website</label>
+    <input type="url">
+
+    <label>Favourite Colour</label>
+    <input type="color">
+
+    <label>Number of Guests</label>
+    <input type="number" min="1" max="10" value="2">
+
+    <label>Visit Time</label>
+    <input type="time">
+
+    <label>Coffee Strength</label>
+    <input type="range" min="1" max="5">
+
+    <label>Member ID</label>
+    <input type="text" value="CAFE-001" readonly>
+
+    <label>Old Code</label>
+    <input type="text" value="Not available" disabled>
+
+    <label>Message</label>
+    <textarea rows="3"></textarea>
+
+    <label>Favourite Drink</label>
+    <select>
+      <option>Iced Mocha</option>
+      <option selected>Hot Chocolate</option>
+      <option>Latte</option>
+    </select>
+
+    <label>Upload Photo</label>
+    <input type="file">
+
+    <label>Gender</label>
+    <div>
+      <input type="radio" name="gender" value="female" checked> Female
+      <input type="radio" name="gender" value="male"> Male
+    </div>
+
+    <label>Interests</label>
+    <div>
+      <input type="checkbox" checked> Coffee
+      <input type="checkbox"> Desserts
+    </div>
+
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>
