@@ -10,7 +10,8 @@ Cozy Cafe website
 Home, Media, Register, Services, Portfolio, Contact
 
 ## AI Usage Log
-Tool: Replit (for design only). I will write the code myself.
+Tool: Replit (for design only).
+Claude: explained concepts and helped with code (Services page code also written with Claude's help, which I read and understood).
 ## Media Sources
 - Image (cafe.jpg): free stock photo site
 - Video (cafe.mp4): Pexels (free license)
