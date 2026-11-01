@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cozy Cafe - Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="media.html">Media</a>
+    <a href="register.html">Register</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Get in Touch</h1>
+
+  <div class="contact-wrapper">
+
+      <section class="about">
+      <h2>About Cozy Cafe</h2>
+      <p>Cozy Cafe is a small corner of calm in a busy day. We brew fresh coffee, bake our desserts at home and keep a quiet seat ready for you and your friends.</p>
+      <ul>
+        <li>Open daily: 9 AM to 11 PM</li>
+        <li>Phone: 0312-5550199</li>
+        <li>Email: hello@cozycafe.pk</li>
+      </ul>
+        </section>
+
+    <section class="form-box">
+      <h2>Send Us a Message</h2>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" maxlength="200" required></textarea>
+        <p id="char-count">0 / 200</p>
+
+        <button type="submit">Send</button>
+      </form>
+      <p id="thank-you"></p>
+    </section>
+
+  </div>
+
+  <script src="contact.js"></script>
+</body>
+</html>
